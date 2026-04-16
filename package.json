@@ -1,0 +1,20 @@
+{
+  "name": "fetchbetter",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "setup": "npx playwright install chromium",
+    "scrape": "node src/cli.mjs",
+    "start": "node src/cli.mjs",
+    "test": "node src/cli.mjs --help"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.59.1",
+    "tldts": "^7.0.28"
+  }
+}
